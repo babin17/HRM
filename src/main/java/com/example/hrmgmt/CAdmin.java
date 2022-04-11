@@ -11,6 +11,7 @@ import com.example.hrmdl.Admin;
 import java.util.List;
 import java.util.ArrayList;
 
+
 @RestController
 @RequestMapping("/admin")
 public class CAdmin {

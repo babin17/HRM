@@ -2,8 +2,14 @@ package com.example.hrmdl;
 
 import java.util.UUID;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+
+@Entity
 public class User {
-    private final String id;
+    @Id
+    private String id;
     private String username;
     private String email;
     private String address;
@@ -49,6 +55,10 @@ public class User {
 
     public String getPassword(){
         return password;
+    }
+
+    public void setID(String id){
+        this.id = id;
     }
 
 
