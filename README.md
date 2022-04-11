@@ -11,11 +11,19 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 ## Add your files
 Create a folder somewhere in your device (PC, ofcourse), and follow the git command listed below:
 - [ ] [note that you need to have git install, if want to install git] (https://git-scm.com/)
-- [ ] [another one, note that you also need to have java, maven install to run the app]
+```
+
+    *installing git with windows download manager*
+    *open terminal/command prompt and copy the command below*
+
+    winget install --id Git.Git -e --source winget
+
+```
+- [ ] [another one, note that you also need to have java, maven and spring boot install to run the app]
 
 ```
 cd /to/your/project/folder
-git clone https://gitlab.com/np03a160011/hrm.git
+git clone https://github.com/babin17/HRM.git
 cd hrm
 mvn clean compile 
 mvn spring-boot:run
