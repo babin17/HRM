@@ -18,7 +18,7 @@ public class Admin {
     private String username;
     private String contact;
 
-    private Admin(){}
+    public Admin(){}
 
 
     public Admin(String firstName, String lastName, String username, String contact){
