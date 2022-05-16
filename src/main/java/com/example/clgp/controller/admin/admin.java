@@ -54,16 +54,16 @@ public class admin {
         }
     }
 
-    @DeleteMapping("/")
-    public String deleteAdmin(@RequestParam long id){
-        try{
-            mAdminRepo.deleteById(id);
-            return "Successfully deleted admin of id: " + id + " .";
-        }
-        catch(Exception e){
-            return e.getMessage();
-        }
-    }
+    // @DeleteMapping("/")
+    // public String deleteAdmin(@RequestParam long id){
+    //     try{
+    //         mAdminRepo.deleteById(id);
+    //         return "Successfully deleted admin of id: " + id + " .";
+    //     }
+    //     catch(Exception e){
+    //         return e.getMessage();
+    //     }
+    // }
 
     @GetMapping("/")
     public Admin getAdminByID(@RequestParam long id){
